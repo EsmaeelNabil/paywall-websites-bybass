@@ -7,22 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1112C8AB2977BFF800FD0480 /* MoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1112C8AA2977BFF800FD0480 /* MoreButton.swift */; };
+		1112C8AD2977C04400FD0480 /* SearchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1112C8AC2977C04400FD0480 /* SearchButton.swift */; };
+		1112C8AF2977C0CC00FD0480 /* ClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1112C8AE2977C0CC00FD0480 /* ClearButton.swift */; };
 		11CE24B4297750EF003A7D40 /* rmwallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CE24B3297750EF003A7D40 /* rmwallApp.swift */; };
 		11CE24B6297750EF003A7D40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CE24B5297750EF003A7D40 /* ContentView.swift */; };
 		11CE24B8297750F0003A7D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CE24B7297750F0003A7D40 /* Assets.xcassets */; };
 		11CE24BB297750F0003A7D40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CE24BA297750F0003A7D40 /* Preview Assets.xcassets */; };
+		11CE24C229775174003A7D40 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CE24C129775174003A7D40 /* WebView.swift */; };
+		11CE24CB29775BA6003A7D40 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CE24CA29775BA6003A7D40 /* ShareViewController.swift */; };
+		11CE24CE29775BA6003A7D40 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CE24CC29775BA6003A7D40 /* MainInterface.storyboard */; };
+		11CE24D229775BA6003A7D40 /* share.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 11CE24C829775BA6003A7D40 /* share.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		11CE24DB29779E4F003A7D40 /* HistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CE24DA29779E4F003A7D40 /* HistoryManager.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		11CE24D029775BA6003A7D40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11CE24A8297750EF003A7D40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11CE24C729775BA6003A7D40;
+			remoteInfo = share;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11CE24D629775BA6003A7D40 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				11CE24D229775BA6003A7D40 /* share.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1112C8AA2977BFF800FD0480 /* MoreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreButton.swift; sourceTree = "<group>"; };
+		1112C8AC2977C04400FD0480 /* SearchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchButton.swift; sourceTree = "<group>"; };
+		1112C8AE2977C0CC00FD0480 /* ClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearButton.swift; sourceTree = "<group>"; };
 		11CE24B0297750EF003A7D40 /* rmwall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rmwall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CE24B3297750EF003A7D40 /* rmwallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rmwallApp.swift; sourceTree = "<group>"; };
 		11CE24B5297750EF003A7D40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		11CE24B7297750F0003A7D40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11CE24BA297750F0003A7D40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11CE24C129775174003A7D40 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		11CE24C329775651003A7D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		11CE24C829775BA6003A7D40 /* share.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = share.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		11CE24CA29775BA6003A7D40 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		11CE24CD29775BA6003A7D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		11CE24CF29775BA6003A7D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11CE24D7297766C4003A7D40 /* Runner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Runner.entitlements; sourceTree = "<group>"; };
+		11CE24D82977699E003A7D40 /* rmwall.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = rmwall.entitlements; sourceTree = "<group>"; };
+		11CE24D9297769C3003A7D40 /* share.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = share.entitlements; sourceTree = "<group>"; };
+		11CE24DA29779E4F003A7D40 /* HistoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		11CE24AD297750EF003A7D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11CE24C529775BA6003A7D40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				11CE24B2297750EF003A7D40 /* rmwall */,
+				11CE24C929775BA6003A7D40 /* share */,
 				11CE24B1297750EF003A7D40 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				11CE24B0297750EF003A7D40 /* rmwall.app */,
+				11CE24C829775BA6003A7D40 /* share.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +105,18 @@
 		11CE24B2297750EF003A7D40 /* rmwall */ = {
 			isa = PBXGroup;
 			children = (
+				11CE24D82977699E003A7D40 /* rmwall.entitlements */,
+				11CE24C329775651003A7D40 /* Info.plist */,
 				11CE24B3297750EF003A7D40 /* rmwallApp.swift */,
+				1112C8AC2977C04400FD0480 /* SearchButton.swift */,
+				1112C8AE2977C0CC00FD0480 /* ClearButton.swift */,
 				11CE24B5297750EF003A7D40 /* ContentView.swift */,
+				1112C8AA2977BFF800FD0480 /* MoreButton.swift */,
 				11CE24B7297750F0003A7D40 /* Assets.xcassets */,
 				11CE24B9297750F0003A7D40 /* Preview Content */,
+				11CE24C129775174003A7D40 /* WebView.swift */,
+				11CE24D7297766C4003A7D40 /* Runner.entitlements */,
+				11CE24DA29779E4F003A7D40 /* HistoryManager.swift */,
 			);
 			path = rmwall;
 			sourceTree = "<group>";
@@ -67,6 +129,17 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		11CE24C929775BA6003A7D40 /* share */ = {
+			isa = PBXGroup;
+			children = (
+				11CE24D9297769C3003A7D40 /* share.entitlements */,
+				11CE24CA29775BA6003A7D40 /* ShareViewController.swift */,
+				11CE24CC29775BA6003A7D40 /* MainInterface.storyboard */,
+				11CE24CF29775BA6003A7D40 /* Info.plist */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +150,34 @@
 				11CE24AC297750EF003A7D40 /* Sources */,
 				11CE24AD297750EF003A7D40 /* Frameworks */,
 				11CE24AE297750EF003A7D40 /* Resources */,
+				11CE24D629775BA6003A7D40 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				11CE24D129775BA6003A7D40 /* PBXTargetDependency */,
 			);
 			name = rmwall;
 			productName = rmwall;
 			productReference = 11CE24B0297750EF003A7D40 /* rmwall.app */;
 			productType = "com.apple.product-type.application";
+		};
+		11CE24C729775BA6003A7D40 /* share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11CE24D329775BA6003A7D40 /* Build configuration list for PBXNativeTarget "share" */;
+			buildPhases = (
+				11CE24C429775BA6003A7D40 /* Sources */,
+				11CE24C529775BA6003A7D40 /* Frameworks */,
+				11CE24C629775BA6003A7D40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = share;
+			productName = share;
+			productReference = 11CE24C829775BA6003A7D40 /* share.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +190,9 @@
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					11CE24AF297750EF003A7D40 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					11CE24C729775BA6003A7D40 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -116,6 +211,7 @@
 			projectRoot = "";
 			targets = (
 				11CE24AF297750EF003A7D40 /* rmwall */,
+				11CE24C729775BA6003A7D40 /* share */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +226,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		11CE24C629775BA6003A7D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CE24CE29775BA6003A7D40 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +241,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1112C8AB2977BFF800FD0480 /* MoreButton.swift in Sources */,
+				11CE24DB29779E4F003A7D40 /* HistoryManager.swift in Sources */,
+				11CE24C229775174003A7D40 /* WebView.swift in Sources */,
 				11CE24B6297750EF003A7D40 /* ContentView.swift in Sources */,
 				11CE24B4297750EF003A7D40 /* rmwallApp.swift in Sources */,
+				1112C8AD2977C04400FD0480 /* SearchButton.swift in Sources */,
+				1112C8AF2977C0CC00FD0480 /* ClearButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11CE24C429775BA6003A7D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CE24CB29775BA6003A7D40 /* ShareViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11CE24D129775BA6003A7D40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11CE24C729775BA6003A7D40 /* share */;
+			targetProxy = 11CE24D029775BA6003A7D40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11CE24CC29775BA6003A7D40 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11CE24CD29775BA6003A7D40 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		11CE24BC297750F0003A7D40 /* Debug */ = {
@@ -262,19 +398,23 @@
 		11CE24BF297750F0003A7D40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = rmwall/rmwall.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"rmwall/Preview Content\"";
 				DEVELOPMENT_TEAM = 52PF6JQYK5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = rmwall/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,19 +431,23 @@
 		11CE24C0297750F0003A7D40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = rmwall/rmwall.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"rmwall/Preview Content\"";
 				DEVELOPMENT_TEAM = 52PF6JQYK5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = rmwall/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +455,60 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sam.rmwall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11CE24D429775BA6003A7D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = share/share.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52PF6JQYK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = share/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = share;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.rmwall.share;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11CE24D529775BA6003A7D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = share/share.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52PF6JQYK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = share/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = share;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.rmwall.share;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,6 +532,15 @@
 			buildConfigurations = (
 				11CE24BF297750F0003A7D40 /* Debug */,
 				11CE24C0297750F0003A7D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11CE24D329775BA6003A7D40 /* Build configuration list for PBXNativeTarget "share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11CE24D429775BA6003A7D40 /* Debug */,
+				11CE24D529775BA6003A7D40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

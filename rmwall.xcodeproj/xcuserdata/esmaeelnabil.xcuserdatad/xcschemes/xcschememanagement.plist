@@ -7,7 +7,25 @@
 		<key>rmwall.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>share.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>11CE24AF297750EF003A7D40</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>11CE24C729775BA6003A7D40</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
