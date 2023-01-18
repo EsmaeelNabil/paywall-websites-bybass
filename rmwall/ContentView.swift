@@ -69,6 +69,8 @@ struct ContentView: View {
                             showHistorySheet = true
                         }, onClearList: {
                             HistoryManager.clearHistory()
+                        }, onClearCookiesAndRefresh: {
+                            HistoryManager.clearCookies()
                         })
                     
                     Spacer(minLength: 16)
@@ -139,15 +141,12 @@ struct ContentView: View {
     }
     
     
-    
-    
     var SearchInput : some View {
         TextField("Write OR Share URL from browser", text: $urlInput)
             .padding()
             .background(Color.accentColor.opacity(0))
         
     }
-    
     
     
 }

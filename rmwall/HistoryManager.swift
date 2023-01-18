@@ -38,4 +38,19 @@ class HistoryManager {
         defaults.removeObject(forKey: "items")
         defaults.synchronize()
     }
+    
+    public static func clearCookies() {
+        let storage = HTTPCookieStorage.shared
+
+        guard storage.cookies?.count ?? 0 > 0 else{
+            return
+        }
+
+        for cookie in storage.cookies! {
+            storage.deleteCookie(cookie)
+        }
+
+        UserDefaults.standard.synchronize()
+    }
+    
 }

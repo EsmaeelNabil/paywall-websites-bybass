@@ -15,6 +15,7 @@ struct MoreButton : View {
     var onSave : OnAction
     var onSavedList : OnAction
     var onClearList : OnAction
+    var onClearCookiesAndRefresh : OnAction
     
     var body: some View {
         Button(action: {
@@ -42,6 +43,12 @@ struct MoreButton : View {
                 } label: {
                     Label("Clear Bookmarks", systemImage: "list.bullet.clipboard")
                 }
+                
+                Button {
+                    onClearCookiesAndRefresh()
+                } label: {
+                    Label("Clear Cookies & refresh", systemImage: "list.bullet.clipboard")
+                }
             } : nil)
     }
 }
@@ -56,6 +63,8 @@ struct MoreButton_Previews: PreviewProvider {
         } onSavedList: {
             
         } onClearList: {
+            
+        } onClearCookiesAndRefresh: {
             
         }
 
